@@ -4,4 +4,5 @@
 			.panel-heading
 				%h1 Edit Your Pin
 			.panel-body
+				= image_tag @pin.image.url(:medium)
 				= render 'form'
